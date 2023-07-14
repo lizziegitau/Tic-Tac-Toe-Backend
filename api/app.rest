@@ -1,0 +1,37 @@
+POST http://localhost:3001/players
+Content-Type: application/json
+
+
+{
+"username": "john",
+"password": "password123"
+}
+
+###
+POST http://localhost:3001/players
+Content-Type: application/json
+
+
+{
+"username": "peter",
+"password": "password123"
+}
+
+
+
+###
+
+GET http://localhost:3001/players
+
+###
+POST http://localhost:3001/games
+Content-Type:application/json
+
+{
+  "player1": "john_doe",
+  "player2": "jane_smith"
+}
+
+###
+GET http://localhost:3001/games
+
