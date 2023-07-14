@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    color: #000;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    height: 100%;
+    background-color: #6096FD;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+  
+  .app {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .tile {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    cursor: pointer;
+  }
+  
+  .tile:hover {
+    background-color: aquamarine;
+  }
+
+  span {
+    color: greenyellow;
+  }
+
+  .controls button {
+    background: rgba(162, 7, 144, 0.396);
+    color: bisque;
+    padding: 10px;
+    border: 8px solid aqua;
+    border-radius: 10px;
+    margin-left: 1em;
+    font-size: 1.5em;
+  }
+
+  #announcer {
+    margin-top: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 20px;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: 'Fasthand', cursive;
+  }
+
+  .display {
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  .home {
+    background: rgba(162, 7, 144, 0.396);
+    color: bisque;
+    padding: 10px;
+    border: 8px solid aqua;
+    border-radius: 10px;
+    margin-left: 1em;
+    font-size: 1.5em;
+  }
